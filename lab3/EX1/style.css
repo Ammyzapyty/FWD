@@ -1,0 +1,15 @@
+body {
+    margin: auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+input, select {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
