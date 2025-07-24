@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 20;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: start; 
+}
+
+.center {
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+input, select, button {
+    margin: 5px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 10px;
+}

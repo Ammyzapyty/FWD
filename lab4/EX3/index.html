@@ -1,0 +1,41 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab4/3</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="center">
+        <h1>ตารางรายรับ-รายจ่าย</h1>
+        <h3>ยอดคงเหลือ</h3>
+        <div id="now">0</div>
+        <input type="text" id="list">
+        <input type="number" id="value">
+        <select id="type">
+            <option value="00">เลือกประเภท</option>
+            <option value="1">รายรับ</option>
+            <option value="2">รายจ่าย</option>
+        </select>
+        <input type="date" id="date">
+        <button onclick="additem()">เพิ่มรายการ</button>
+        <table>
+            <thead>
+                <tr>
+                    <th>วันที่</th>
+                    <th>รายการ</th>
+                    <th>รายรับ</th>
+                    <th>รายจ่าย</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
