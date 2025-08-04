@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lab5/3</title>
+  <style>
+    .Ship {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+    .card {
+      border: 1px solid #ccc;
+      padding: 10px;
+      border-radius: 10px;
+    }
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    @media (max-width: 768px) {
+      .Ship {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    @media (max-width: 500px) {
+      .Ship {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h2>My Favorites Ship from Honkai:Star Rail</h2>
+  <p>I love it when hot people dating hot people...</p>
+  <div class="Ship">
+    <div class="card">
+      <img src="https://pbs.twimg.com/profile_images/1688933048350638081/RPVyv8Y1_400x400.jpg">
+      <h3>1. KafHime</h3>
+      <p>Friend to Enemy, Enemy to Lover.</p>
+    </div>
+    <div class="card">
+      <img src="https://cdn.readawrite.com/articles/19526/19525382/thumbnail/small.gif?2">
+      <h3>2. RuanHerta</h3>
+      <p>Genius dating Genius....</p>
+    </div>
+    <div class="card">
+      <img src="https://upload-os-bbs.hoyolab.com/upload/2024/11/14/356027167/d8202bb7b97fabdb9b036d74dbc7909b_8078813034145397561.jpg?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_70">
+      <h3>3. AcheBlackswan</h3>
+      <p> The Emanator and The Memokeeper...</p>
+    </div>
+    <div class="card">
+      <img src="https://preview.redd.it/serval-and-cocolia-before-the-stellaron-by-v0-ckcf0nn0fhcf1.jpg?width=640&crop=smart&auto=webp&s=88462b887977c20e2ca5b9a5b7ff6d9c78907564">
+      <h3>4. ServalCocolia</h3>
+      <p>Old friend....</p>
+    </div>
+  </div>
+</body>
+</html>

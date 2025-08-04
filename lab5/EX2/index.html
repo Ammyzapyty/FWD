@@ -1,0 +1,64 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab5/2</title>
+    <style>
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            text-align: center;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        @media (max-width: 768px) {
+            .gallery {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 400px) {
+            .gallery {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Beautiful Woman in Honkai:Star Rail</h2>
+    <div class="gallery">
+        <div><img src="https://preview.redd.it/official-valentines-2024-illustration-ruan-mei-v0-o0xgp9ccbhic1.jpeg?auto=webp&s=a82603ce410bba21315bf687ea03c90d298b650c">
+            <p>Ruan Mei</p>
+        </div>
+        <div><img src="https://pbs.twimg.com/media/Gd75OuIa0AIsh7w.jpg">
+            <p>The Herta</p>
+        </div>
+        <div><img src="https://preview.redd.it/official-valentines-2024-illustration-kafka-v0-g8u553yudhic1.jpeg?auto=webp&s=c25f0af8fde6323ae374d4e3d460a3ddf51cbe2d">
+            <p>Kafka</p>
+        </div>
+        <div><img src="https://64.media.tumblr.com/4ac0d041472f703bee7b72fae6c7643f/b864a114460f54bb-5a/s500x750/6f1e8d26f07f9ca30dd7b0a7482ed6ffe106c6e9.png">
+            <p>Himeko</p>
+        </div>
+        <div><img src="https://i1.sndcdn.com/artworks-wZVYDFOhRICW4S3V-UzyVsQ-t500x500.jpg">
+            <p>Acheron</p>
+        </div>
+        <div><img src="https://assetsio.gnwcdn.com/Honkai-Star-Rail-Black-Swan-materials%2C-kit%2C-and-Eidolons-cover.jpg?width=1200&height=1200&fit=crop&quality=100&format=png&enable=upscale&auto=webp">
+            <p>Black Swarn</p>
+        </div>
+        <div><img src="https://upload-static.hoyoverse.com/hoyolab-wiki/2023/03/29/5308864/bf01b98b22c916960c63e1d3c320455a_1181341831026395449.png?x-oss-process=image%2Fformat%2Cwebp">
+            <p>Serval</p>
+        </div>
+        <div><img src="https://i.pinimg.com/736x/13/0b/c7/130bc7c05313fe44ee5ddd42036210d3.jpg">
+            <p>Cocolia</p>
+        </div>
+    </div>
+</body>
+
+</html>
